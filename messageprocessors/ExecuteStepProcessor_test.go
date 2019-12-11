@@ -63,6 +63,7 @@ func TestShouldRunReturnExecutionStatusResponseWithSameId(tst *testing.T) {
 
 	assert.Equal(tst, result.MessageType, m.Message_ExecutionStatusResponse)
 	assert.Equal(tst, result.MessageId, msgId)
+	assert.True(tst, called)
 }
 
 func TestShouldRunStepWithTableParam(tst *testing.T) {
