@@ -1,4 +1,4 @@
-module github.com/getgauge-contrib-vm/gauge-go
+module github.com/vmatyusGitHub/gauge-go
 
 go 1.15
 
