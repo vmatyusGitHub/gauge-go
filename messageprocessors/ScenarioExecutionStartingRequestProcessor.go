@@ -1,6 +1,8 @@
 package messageprocessors
 
 import (
+	"fmt"
+
 	m "github.com/getgauge-contrib/gauge-go/gauge_messages"
 	t "github.com/getgauge-contrib/gauge-go/testsuit"
 )
