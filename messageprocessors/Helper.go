@@ -5,6 +5,8 @@ import (
 	t "github.com/getgauge-contrib/gauge-go/testsuit"
 )
 
+// Some note
+
 func executeHooks(hooks []t.Hook, msg *m.Message, exInfo *m.ExecutionInfo) *m.Message {
 	var res *m.ProtoExecutionResult
 	var totalExecutionTime int64
